@@ -95,7 +95,7 @@ $(function() {
             $(".textArea").val("");
 
         }else {
-            alert("「ねがいごと」と「おなまえ」を書かねば、かなうもんも叶わんわい！");
+            alert("「ねがいごと」と「おなまえ」を書かねば、叶うもんも叶わんわい！");
             console.log("空欄だめ！！");
             click_flg = true;
         }
