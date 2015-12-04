@@ -95,7 +95,7 @@ $(function() {
             $(".textArea").val("");
 
         }else {
-            alert("ねがいごととおなまえは必須じゃ！");
+            alert("「ねがいごと」と「おなまえ」を書かねば、かなうもんも叶わんわい！");
             console.log("空欄だめ！！");
             click_flg = true;
         }
