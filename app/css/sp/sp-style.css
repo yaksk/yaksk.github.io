@@ -142,7 +142,7 @@ textarea {
     }
     .p-colorlist li{
       display: inline-block;
-      width: 48%;
+      width: 25%;
        margin: 20px 0px;
      }
     .p-colorlist__item{
