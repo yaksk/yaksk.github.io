@@ -142,7 +142,7 @@ textarea {
     }
     .p-colorlist li{
       display: inline-block;
-      width: 20%;
+      width: 23%;
        margin: 20px 0px;
      }
     .p-colorlist__item{
@@ -158,9 +158,7 @@ textarea {
 
 
 /* HUSEN END */
-.p-colorlist li:nth-child(2n){
-    float:none;
-}
+
 
 .footer{
   background: #096D31; 
