@@ -133,7 +133,9 @@ h1 span {
   padding: .75em 1em;
   border: 2px dashed #FBCD21;
 }
-.spDetailTxt{font-size: 0.8rem;margin: 0 20px 20px 20px;}
+.spDetailTxt{font-size: 0.8rem;
+  margin: 0 20px 20px 20px;}
+
 /*h1::before,
 h1::after {
   content: '';
