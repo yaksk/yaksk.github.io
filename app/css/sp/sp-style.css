@@ -123,7 +123,7 @@ h1 {
   padding: .3em;
   background-color: #DD2D16;
   text-align: center;
-  margin: 0 20px 20px 20px;
+  margin: 0 20px 10px;
   color: #fff;
   font-size: 1.4rem;
 
@@ -133,7 +133,7 @@ h1 span {
   padding: .75em 1em;
   border: 2px dashed #FBCD21;
 }
-.spDetailTxt{font-size: 1.2rem;margin: 0 20px 20px 20px;}
+.spDetailTxt{font-size: 0.8rem;margin: 0 20px 20px 20px;}
 /*h1::before,
 h1::after {
   content: '';
@@ -174,12 +174,12 @@ h1::after {
         list-style: none;
         width: 100%;
         margin:0;
-        padding:10px 0px;
+        padding:10px 0px 0px;
     }
     .p-colorlist li{
       display: inline-block;
       width: 23%;
-       margin: 20px 0px;
+       margin: 10px 0px;
      }
     .p-colorlist__item{
             height: 80px;
