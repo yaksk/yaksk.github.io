@@ -117,7 +117,43 @@ textarea {
  */
 #back{z-index: 1}
 
+/*TTI*/
+h1 {
+  position: relative;
+  padding: .3em;
+  background-color: #DD2D16;
+  text-align: center;
+  margin: 0 20px 20px 20px;
+  color: #fff;
+  font-size: 1.4rem;
 
+}
+h1 span {
+  display: block;
+  padding: .75em 1em;
+  border: 2px dashed #FBCD21;
+}
+.spDetailTxt{font-size: 1.2rem;margin: 0 20px 20px 20px;}
+/*h1::before,
+h1::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-color: transparent;
+}
+h1::before {
+  top: 100%;
+  left: 0;
+  border-width: 0 15px 15px 0;
+  border-right-color: #ccc;
+}
+h1::after {
+  top: -15px;
+  right: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 0;
+  border-bottom-color: #ccc;
+}*/
 /* Wrapper */
 #wrapper{
     width: 100%;
@@ -138,7 +174,7 @@ textarea {
         list-style: none;
         width: 100%;
         margin:0;
-        padding:20px 0px;
+        padding:10px 0px;
     }
     .p-colorlist li{
       display: inline-block;
@@ -146,16 +182,13 @@ textarea {
        margin: 20px 0px;
      }
     .p-colorlist__item{
-            height: 100px;
+            height: 80px;
             border-width: 3px;
             cursor: pointer;
         }
         .p-colorlist__item--first{
             margin-top: 0;
         }
-
-
-
 
 /* HUSEN END */
 
@@ -183,7 +216,8 @@ textarea {
 .footer div{
     max-width: 320px;
      margin: 0 auto;
-    padding: 0;
+    padding: 10px;
+    box-sizing:border-box;
 }
 
 .footer input{
