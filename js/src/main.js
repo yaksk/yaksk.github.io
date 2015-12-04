@@ -95,8 +95,8 @@ $(function() {
             $(".textArea").val("");
 
         }else {
-            alert("連打はできません！");
-            console.log("連打はだめ！！");
+            alert("ねがいごととおなまえは必須じゃ！");
+            console.log("空欄だめ！！");
             click_flg = true;
         }
     });
