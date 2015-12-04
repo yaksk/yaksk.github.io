@@ -42,8 +42,13 @@
     </div> --><!-- #sidebar -->
 
     <div id="canvas"></div>
-<audio id="audio" controls>
+<audio id="audio" controls loop autoplay>
         <source src="../song.mp3">
     </audio>
+
+<script type="text/javascript">
+    var v = document.getElementsByTagName("audio")[0];
+v.play();
+</script>
 </body>
 </html>
