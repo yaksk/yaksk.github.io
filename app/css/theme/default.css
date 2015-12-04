@@ -11,7 +11,7 @@
 .theme-husen--one {
     color: #298dd4;
     border-color: #298dd4;
-    background: url(../../images/star.png)  no-repeat 50% 50%;
+    background: url(../../images/socks.png)  no-repeat 50% 50%;
     background-size: 80%;
 }
 .theme-husen--one:hover,
@@ -63,7 +63,7 @@
 .theme-colorlist__item--six{border-color: #f78ba7}
 .theme-colorlist__item--six.is-active{background-color: #f78ba7}*/
 
-.theme-colorlist__item--one{background: url(../../images/star.png) no-repeat 50% 50%;background-size: 40px;}
+.theme-colorlist__item--one{background: url(../../images/socks.png) no-repeat 50% 50%;background-size: 40px;}
 .theme-colorlist__item--one.is-active{background-size: contain;}
 .theme-colorlist__item--two{background:  url(../../images/ball.png) no-repeat 50% 50%;background-size: 40px;}
 .theme-colorlist__item--two.is-active{background-size: contain;}
