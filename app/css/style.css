@@ -1,0 +1,377 @@
+/* FOUNDATION START */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Arial, sans-serif;
+    font-size: 14px;
+    color: #676F7D;
+    margin: 0;
+    line-height: 1.6;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+a {
+    background: transparent;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+small {
+    font-size: 80%;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+pre {
+    overflow: auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+
+/* FOUNDATION END */
+
+
+/* z-index manager */
+
+
+/**
+ * 1: back
+ * 2: canvas;
+ * 3: husen;
+ * 4: husen-cross;
+ * 4: husen-note;
+ * 5: header;
+ * 5: sidebar;
+ */
+
+#back {
+    z-index: 1
+}
+
+#canvas {
+    z-index: 2
+}
+
+.p-husen {
+    z-index: 3
+}
+
+.husen-detail{
+  z-index: 4
+}
+
+.p-husen__cross {
+    z-index: 5
+}
+
+.p-husen__note {
+    z-index: 5
+}
+
+#header {
+    z-index: 5
+}
+
+#sidebar {
+    z-index: 5
+}
+
+
+
+
+/* HEADER */
+
+#header {
+    position: relative;
+}
+
+.p-header__logo {
+    height: 64px;
+    background: #E7755E;
+    border-bottom: 1px solid #EFF0F4;
+}
+
+.p-header__logo > a {
+    text-decoration: none;
+}
+
+.p-header__logo__img {
+    margin-top: 16px;
+    margin-left: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.p-header__logo__txt {
+    font-size: 1.4em;
+    color: #676F7D;
+    margin: 16px 0 0 0.2em;
+    letter-spacing: 0.06em;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.p-header__title {
+    font-size: 1em;
+    background: #fff;
+    padding: 1.4em 0 1.4em 2em;
+    margin: 0;
+    border-bottom: 1px solid #EFF0F4;
+}
+
+
+/* HEADER END */
+
+
+/* SIDEBAR */
+
+#sidebar {
+    position: relative;
+    display: inline-block;
+}
+
+.p-colorlist {
+    padding: 12px;
+    background: #fff;
+    border-right: 1px solid #EFF0F4;
+    border-bottom: 1px solid #EFF0F4;
+    display: inline-block;
+}
+
+.p-colorlist__item {
+    width: 70px;
+    height: 70px;
+    border-width: 3px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.p-colorlist__item--first {
+    margin-top: 0;
+}
+
+
+/* SIDEBAR END */
+
+
+/* CANVAS */
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 1200px;
+    height: 800px;
+    background: #19448e url("../images/tree.png") no-repeat 50% 0;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+
+/* CANVAS END */
+
+
+/* HUSEN */
+
+.p-husen {
+    cursor: move;
+    min-width: 130px;
+    min-height: 130px;
+    position: absolute;
+    /*    background: white;*/
+    padding: 8px 12px;
+    /*    border-style: solid;*/
+    font-weight: bold;
+}
+
+.p-husen__cross {
+    position: absolute;
+    top: -2px;
+    right: 2px;
+    cursor: pointer;
+    color: #FFF;
+    opacity: 0;
+}
+
+.p-husen:hover .p-husen__cross {
+    display: block;
+    background: #333;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.husen-detail {
+    opacity: 0;
+    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    box-shadow: 0 0 0
+}
+
+.p-husen:hover .husen-detail {
+    display: block;
+    background-color: #fff;
+    word-wrap: break-word;
+    min-width: 150px;
+    padding: 10px;
+    border-bottom: solid 1px #ccc;
+    line-height: 1.5;
+    position: relative;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.p-husen:hover .husen-detail .husen-text {
+  display: inline;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+}
+
+.p-husen:hover .husen-detail .husen-name {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+/*.p-husen-resizable {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 0.5em;
+}*/
+
+
+/*.jquery-ui-resizable h3 {
+    text-align: center;
+    margin: 0px 0px 0.5em 0px;
+}*/
+
+
+/* HUSEN END */
