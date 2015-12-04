@@ -4,7 +4,7 @@ $(function() {
     var curClr = "one";
     var canvas = $("#canvas");
     var sendButton = $(".p-colorlist__item");
-    var removeButton = $(".removeBtn");
+    var removeButton = $(".remove");
     var fusenBuilder = new FusenBuilder(canvas, ds);
 
     var device = "pc";
@@ -64,13 +64,6 @@ $(function() {
 //         });
 //     });
 
-    removeButton.click(function() {
-        ds.on('remove', function(_removed) {
-        var removed = _removed;
-        fusenBuilder.getFusen(removed.id).removeSelf();
-    }
-    // body...
-);
     // var click_flg = true;
     sendButton.click(function(e) {
         // if (click_flg) {
