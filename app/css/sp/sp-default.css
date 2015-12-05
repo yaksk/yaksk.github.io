@@ -1,64 +1,4 @@
-/* fix */
-.p-husen__cross{color: inherit;}
-
-.p-husen{
-    border-width: 3px;
-}
-
-/* theme */
-.theme-husen--one {
-    background: url(../../images/socks.png)  no-repeat 50% 50%;
-    background-size: 80%;
-}
-.theme-husen--one:hover,
-.theme-husen--two:hover,
-.theme-husen--three:hover,
-.theme-husen--four:hover{background: none;} 
-
-
-.theme-husen--two {
-    color: #0fbd8b;
-    border-color: #0fbd8b;
-    background: url(../../images/ball.png)  no-repeat 50% 50%;
-    background-size: 80%;
-}
-.theme-husen--three {
-    color: #e7755e;
-    border-color: #e7755e;
-    background: url(../../images/bell.png)  no-repeat 50% 50%;
-    background-size: 80%;
-}
-.theme-husen--four {
-    color: #f99b42;
-    border-color: #f99b42;
-    background: url(../../images/present.png)  no-repeat 50% 50%;
-    background-size: 80%;
-}
-.theme-husen--five {
-    color: #7f9ebc;
-    border-color: #7f9ebc;
-    background: url(../../images/present.png)  no-repeat 50% 50%;
-    background-size: 80%;
-}
-.theme-husen--six {
-    color: #f78ba7;
-    border-color: #f78ba7;
-    background: url(../../images/present.png)  no-repeat 50% 50%;
-    background-size: 80%;
-}
-
-/*.theme-colorlist__item--one{background: url(../../images/present.png) no-repeat 50% 50%;background-size: 40px;}
-.theme-colorlist__item--one.is-active{background-size: contain;}
-.theme-colorlist__item--two{border-color: #0fbd8b;}
-.theme-colorlist__item--two.is-active{background-color: #0fbd8b}
-.theme-colorlist__item--three{border-color: #e7755e}
-.theme-colorlist__item--three.is-active{background-color: #e7755e}
-.theme-colorlist__item--four{border-color: #f99b42}
-.theme-colorlist__item--four.is-active{background-color: #f99b42}
-.theme-colorlist__item--five{border-color: #7f9ebc}
-.theme-colorlist__item--five.is-active{background-color: #7f9ebc}
-.theme-colorlist__item--six{border-color: #f78ba7}
-.theme-colorlist__item--six.is-active{background-color: #f78ba7}*/
+/*SP button*/
 
 .theme-colorlist__item--one{background: url(../../images/socks.png) no-repeat 50% 50%;background-size: 60px;}
 .theme-colorlist__item--one.is-active{background-size: contain;}
@@ -72,7 +12,6 @@
 .theme-colorlist__item--five.is-active{background-color: #7f9ebc}
 .theme-colorlist__item--six{background:  url(../../images/present.png) no-repeat 50% 50%;background-size: 60px}
 .theme-colorlist__item--six.is-active{background-color: #f78ba7}
-
 
 
 .theme-colorlist__item--one,

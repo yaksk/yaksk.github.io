@@ -48,21 +48,6 @@ $(function() {
         fusen.setPos(x, y);
     }
 
-// canvas.click(function(e) {
-//         var text = prompt("メモを入力してください。");
-//         var name = prompt("名前入力してください。");
-//         var _curClr = curClr;
-//         if(!text) {
-//             return;
-//         }
-//         ds.push({
-//             x : e.pageX,
-//             y : e.pageY,
-//             text : fusen_util.htmlEscape(text),
-//             name : fusen_util.htmlEscape(name),
-//             color : _curClr
-//         });
-//     });
 
     // var click_flg = true;
     sendButton.click(function(e) {

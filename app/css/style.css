@@ -179,91 +179,10 @@ textarea {
     z-index: 5
 }
 
-#header {
-    z-index: 5
+
+#sound{
+    z-index: 6
 }
-
-#sidebar {
-    z-index: 5
-}
-
-
-
-
-/* HEADER */
-
-#header {
-    position: relative;
-}
-
-.p-header__logo {
-    height: 64px;
-    background: #E7755E;
-    border-bottom: 1px solid #EFF0F4;
-}
-
-.p-header__logo > a {
-    text-decoration: none;
-}
-
-.p-header__logo__img {
-    margin-top: 16px;
-    margin-left: 1.5em;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.p-header__logo__txt {
-    font-size: 1.4em;
-    color: #676F7D;
-    margin: 16px 0 0 0.2em;
-    letter-spacing: 0.06em;
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.p-header__title {
-    font-size: 1em;
-    background: #fff;
-    padding: 1.4em 0 1.4em 2em;
-    margin: 0;
-    border-bottom: 1px solid #EFF0F4;
-}
-
-
-/* HEADER END */
-
-
-/* SIDEBAR */
-
-#sidebar {
-    position: relative;
-    display: inline-block;
-}
-
-.p-colorlist {
-    padding: 12px;
-    background: #fff;
-    border-right: 1px solid #EFF0F4;
-    border-bottom: 1px solid #EFF0F4;
-    display: inline-block;
-}
-
-.p-colorlist__item {
-    width: 70px;
-    height: 70px;
-    border-width: 3px;
-    margin-top: 8px;
-    cursor: pointer;
-}
-
-.p-colorlist__item--first {
-    margin-top: 0;
-}
-
-
-/* SIDEBAR END */
 
 
 /* CANVAS */
@@ -280,9 +199,15 @@ textarea {
     margin: 0 auto;
 }
 
-
 /* CANVAS END */
 
+/*SOUND*/
+
+#sound{
+    position:absolute;
+    top: 20px;
+    left: 10px;
+}
 
 /* HUSEN */
 
@@ -359,19 +284,5 @@ textarea {
     right: 10px;
     bottom: 10px;
 }
-
-
-/*.p-husen-resizable {
-    max-width: 300px;
-    max-height: 300px;
-    padding: 0.5em;
-}*/
-
-
-/*.jquery-ui-resizable h3 {
-    text-align: center;
-    margin: 0px 0px 0.5em 0px;
-}*/
-
 
 /* HUSEN END */

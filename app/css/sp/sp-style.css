@@ -136,32 +136,11 @@ h1 span {
 .spDetailTxt{font-size: 0.8rem;
   margin: 0 20px 20px 20px;}
 
-/*h1::before,
-h1::after {
-  content: '';
-  position: absolute;
-  border-style: solid;
-  border-color: transparent;
-}
-h1::before {
-  top: 100%;
-  left: 0;
-  border-width: 0 15px 15px 0;
-  border-right-color: #ccc;
-}
-h1::after {
-  top: -15px;
-  right: 0;
-  border-style: solid;
-  border-width: 0 15px 15px 0;
-  border-bottom-color: #ccc;
-}*/
 /* Wrapper */
 #wrapper{
     width: 100%;
     min-width: 320px;
     min-height: 100%;
-     
 }
     #wrapperIn{
       display:block;
@@ -170,7 +149,6 @@ h1::after {
       position: relative;
       margin: 0 auto;
       padding: 10px auto;
-       
     }
     .p-colorlist{
         list-style: none;
